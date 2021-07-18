@@ -1,0 +1,109 @@
+
+#main_navbar li {
+  list-style-type: none;
+}
+
+
+
+/* From: https://www.w3schools.com/howto/howto_css_two_columns.asp  */
+/* 
+body {
+  font-family: Arial, sans-serif;
+} */
+
+.main-content {         
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+
+a:link {
+  color: blue;
+  text-decoration: none;   
+}
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+
+#home-post {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+#home-post:hover { 
+  left: 5px;
+}
+
+.main-link:active {
+  text-decoration: underline;
+}
+.main-link:hover {
+  text-decoration: underline;
+}
+
+.post_section {
+  text-align: center;          
+  /* list-style-type:none;           */
+}
+
+.post_body {           
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+.post_body li{
+  /* list-style-type: none; */
+  padding: 3.5px 0px; 
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+  
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+  
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#end_preview_button{
+  text-align:center;
+}
+
+#cy {
+  width: 1000px;
+  height: 1000px;
+  display: block;
+}
+
+
+#primary_home_div {
+  text-align: center;
+  margin-top: 14em;
+}
+
+#raw_thought_url {
+  margin-right: 2.5em;
+}
+
